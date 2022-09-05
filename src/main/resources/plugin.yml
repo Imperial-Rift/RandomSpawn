@@ -1,0 +1,11 @@
+name: RandomSpawn
+version: '${project.version}'
+main: dev.jdog.randomlocation.RandomLocation
+api-version: 1.19
+commands:
+  resetSpawn:
+    description: Reset players random spawn point.
+    usage: /<command>
+  setNewSpawn:
+    description: Set a player's spawn point.
+    usage: /<command>
